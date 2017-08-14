@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <head>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+        <meta charset="utf-8">
+        
+        <body style="background-color: #A9CCE3;"></body>
+        
+        <script>
+        
+        $(document).ready(function(){
+            $("#Lukas_button").click(function(){
+                $("#Lukas_button").fadeTo(500,0.1);
+                $("#Lukas_button").fadeTo(500,1)
+            });
+        });
+            
+        </script>
+        
+        <style>
+            
+            #Lukas_button
+            {
+
+                border-radius: 8px;
+                text-align: center;0
+
+                border: 2px solid #7FDBFF;
+                color: #7FDBFF;
+                background-color: #0074D9;
+                
+                font-family: "Courier New",Monospace;
+                font-size: 15pt;
+                
+                position: absolute;
+                text-decoration: none;
+                top:0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                
+                margin: auto;
+                display: inline-block;
+                padding: 10px 20px;
+                
+                width: 100px;
+                height:20px;
+                cursor: pointer;
+            }
+            
+            #Lukas_button:hover
+            {
+                box-shadow: 0 9px #999;
+            }
+            
+            #Lukas_button:active
+            {
+                box-shadow: 0 5px #666;
+            }
+            
+        </style>
+        
+
+        
+    </head>
+
+    <body>
+    
+        <div id="Lukas_button">Button</div>
+    
+    </body>
+    
+</html>
+

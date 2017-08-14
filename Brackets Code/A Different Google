@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html>
+    
+    <link rel=stylesheet type="text/css" href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:200" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+    <meta charset="utf-8">
+    
+    <head>
+    
+        <style>
+        
+            h1
+                {
+                    font-family: 'Source Code Pro', monospace;
+                    font-size: 8px;
+                }
+            
+            #searchbar
+            {
+                box-sizing: border-box;
+                padding: 12px 20px 12px 40px;
+                width: 175px;
+                border: 2px solid #a972cb;
+                
+                font-family: 'Source Code Pro', monospace;
+                font-size: 2px;
+                
+                background-color: #111111;
+                
+                -webkit-transition: width 0.4s ease-in-out;
+                transition: : width 0.4s ease-in-out;
+                
+                margin-left: 10%;
+                
+                position: fixed;
+            }
+            
+            #searchbar:focus
+            {
+                width: 80%;
+            }
+        
+            button[type=text]
+            {
+                
+                box-sizing: border-box;
+                padding: 6px 20px 6px 20px;
+                width: 200px;
+                border: 2px solid #8fc866;
+                
+                font-family: 'Fira Mono','Source Code Pro', monospace;
+                font-size: 1px;
+                color: #8fc866;
+                text-align: center;
+                
+                background-color: #111111;
+                
+                margin-left: 13.25%;
+                margin-top: 7%;
+                
+            }
+            
+            button[type=text]:hover
+            {
+                
+                background-color: #8fc866;
+                color: #11111111;
+                
+            }
+            
+        </style>
+        
+        <script>
+            
+            $(document).ready(function(){
+                $("#header").animate({
+                    fontSize: '100'
+                });
+                 $("#searchbar").animate({
+                    fontSize: '20'
+                });
+                $("button").animate({
+                    fontSize: '15'
+                });
+                
+            });
+            
+        </script>
+        
+    </head>
+    
+    <body class= bg-black>
+    
+        <h1 style="text-align: center" class= blue id=header>Google</h1>
+        
+        <form>
+            <input id= "searchbar" placeholder="Search...">
+        </form>
+        
+        <button onclick="Function" type="text"><b>Page Name Here<b></button>
+        <button onclick="Function" type="text"><b>Page Name Here<b></button>
+        <button onclick="Function" type="text"><b>Page Name Here<b></button>
+        <button onclick="Function" type="text"><b>Page Name Here<b></button>
+        <button onclick="Function" type="text"><b>Page Name Here<b></button>
+        <button onclick="Function" type="text"><b>Page Name Here<b></button>
+
+    
+    </body>
+    
+</html>

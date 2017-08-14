@@ -1,0 +1,50 @@
+<doctype html>
+    
+    <html>
+        
+        <head>
+            
+            <meta charset="utf-8">
+            <meta name= "theme-color" content="#0074D9">
+            <link rel="stylesheet" href="styles.css">
+            <link rel=stylesheet href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            
+        </head>
+        
+        <body>
+            
+            <h1 class="weather">Weather Simulator</h1>
+            
+            <div id ="animate">
+                    
+                    <img src="Photos/download.jpg" alt="Cloud" style="width:304px;height:228px;">
+                    
+                </div>
+                
+                
+            <script>
+                
+                var elem = document.getElementById("animate");
+                var pos = 0;
+                var id = setInterval(frame, 1);
+                    
+                function frame()
+                {
+                    if (pos == screen.width + 400)
+                    {
+                        pos = 0;
+                        elem.style.top = Math.floor(Math.random() * 60 + 20)  + '%';
+                    }
+                    else
+                    {
+                        pos++;
+                        elem.style.left = pos - 400 + 'px';
+                    }
+                }
+                
+            </script>
+            
+        </body>
+        
+    </html>
