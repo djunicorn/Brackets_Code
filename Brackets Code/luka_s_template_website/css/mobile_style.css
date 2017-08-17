@@ -1,0 +1,26 @@
+/*||||||||*\
+The css for the tiny mobile veiw:
+\*||||||||*/
+
+
+/*||||||||*\
+Coloumns for responsive web design:
+\*||||||||*/
+
+.col-1
+{
+    width: 100%%;
+}
+
+.col-2 {
+    width: 100%;
+}
+
+.col-3 {
+    width: 100%;
+}
+
+footer
+{
+    width: 0% !important;
+}

@@ -1,0 +1,110 @@
+/*||||||||*\
+Universal css for all device sizes.
+
+Colours:
+
+Primary: #8e24aa
+Secondary: #c158dc
+Tertiary: #5c007a
+\*||||||||*/
+
+/*||||||||*\
+Fonts:
+\*||||||||*/
+
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Open+Sans');
+
+*
+{
+    box-sizing: border-box;
+    display: block;
+    
+    font-family: 'Open Sans','Droid Sans', sans-serif !important;
+}
+
+/*||||||||*\
+Make all the columns float left and add padding:
+\*||||||||*/
+
+[class*="col-"] {
+    float: left;
+    padding: 1%;
+    border: 2% solid transparent;
+    margin-bottom: 10%;
+    font-size: 2rem;
+}
+
+
+[class*="col-"]::first-line
+{
+    font-size: 1.25em;
+    color: #aaa;
+}
+
+/*||||||||*\
+make the columns float property count:
+\*||||||||*/
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+header
+{
+    width: 100%;
+    height: 13%;
+    
+    padding: 10px;
+    margin-bottom: 5%;
+    
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 3rem;
+    
+    color: #fff;
+    background-color: #8e24aa;
+}
+
+footer
+{
+    width: 100%;
+    height: 5%;
+    
+    bottom: 0;
+    
+    background-color: #8e24aa;
+    
+    position: fixed;
+    
+    margin-top: 10%;
+}
+
+.nav li
+{
+    width: 15%;
+    
+    display: inline-block;
+    
+    border-bottom: 3px solid #c158dc;
+    
+    font-size: 1.5rem;
+    text-align: center;
+    
+    padding: 1%;
+    margin-top: 1%;
+    
+    transition-property: border;
+    transition-duration: 0.25s;
+}
+
+.nav li:hover
+{
+    border: 3px solid #c158dc;
+    
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.75);
+}
+
+

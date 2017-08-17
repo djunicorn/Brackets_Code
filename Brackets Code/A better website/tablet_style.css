@@ -1,0 +1,21 @@
+/*||||||||*\
+The css for the medium desktop veiw:
+\*||||||||*/
+
+
+/*||||||||*\
+Coloumns for responsive web design:
+\*||||||||*/
+
+.col-1
+{
+    width: 50%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 100%;
+}
