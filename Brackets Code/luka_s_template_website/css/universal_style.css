@@ -54,7 +54,7 @@ make the columns float property count:
 header
 {
     width: 100%;
-    height: 13%;
+    height: 10%;
     
     padding: 10px;
     margin-bottom: 5%;
@@ -64,6 +64,21 @@ header
     
     color: #fff;
     background-color: #8e24aa;
+}
+
+.nav h1
+{
+    width: 15%;
+    
+    display: inline-block;
+    
+    border-bottom: 3px solid #c158dc;
+    
+    font-size: 1.5rem;
+    text-align: center;
+    
+    padding: 1%;
+    margin-top: 1%;
 }
 
 footer
@@ -88,14 +103,20 @@ footer
     
     border-bottom: 3px solid #c158dc;
     
-    font-size: 1.5rem;
+    font-size: 50%;
     text-align: center;
     
     padding: 1%;
     margin-top: 1%;
     
     transition-property: border;
-    transition-duration: 0.25s;
+    transition-duration: 0.45s;
+}
+
+.nav li a
+{
+    text-decoration: none;
+    color: #fff;
 }
 
 .nav li:hover

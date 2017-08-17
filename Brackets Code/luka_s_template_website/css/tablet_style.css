@@ -19,3 +19,8 @@ Coloumns for responsive web design:
 .col-3 {
     width: 100%;
 }
+
+body
+{
+    background-color: black;
+}

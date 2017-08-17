@@ -24,3 +24,13 @@ footer
 {
     width: 0% !important;
 }
+
+.nav li
+{
+    width: 40%;
+}
+
+body
+{
+    background-color: #654321;
+}
