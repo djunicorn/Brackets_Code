@@ -1,0 +1,65 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Open Serif',sans-serif;
+    background-color: #123456;
+}
+
+.content
+{
+    border: 5px solid #fff;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+    line-height: 150%;
+    transition-property: all;
+    transition-duration: 0.5s;
+    border-radius: 10px;
+}
+
+
+.content1
+{
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    margin: 15px;
+    margin-top: 3%;
+    border-radius: 10px;
+}
+
+.content:first-line
+{
+    font-size: 2rem;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+.pure-menu
+{
+    margin-bottom: 5%;
+    -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.pure-menu-heading, .pure-menu-link
+{
+    font-family: 'Droid Serif',sans-serif;
+    font-size: 1.5rem;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    border-radius: 10px;
+    text-transform: none;
+}
+
+.footer
+{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    -webkit-box-shadow: 0px -10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -10px 5px 0px rgba(0,0,0,0.75);
+}
