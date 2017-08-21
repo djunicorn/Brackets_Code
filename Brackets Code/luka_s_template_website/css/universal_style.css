@@ -128,4 +128,53 @@ footer
     -moz-box-shadow: 5px 5px 0px 0px rgba(0,0,0,0.75);
 }
 
+/*Desktop*/
+@media screen and (min-width:769px)
+{
+    .col-1
+    {
+    width: 33.33%;
+    }
+    
+    .col-2 {
+    width: 33.33%;
+    }
+    
+    .col-3 {
+    width: 33.33%;
+    }
+}
 
+/*Tablet*/
+@media screen and (min-width:481px) and (max-width:768px)
+{
+    .col-1
+    {
+    width: 50%;
+    }
+    
+    .col-2 {
+    width: 50%;
+    }
+    
+    .col-3 {
+    width: 100%%;
+    }
+}
+
+/*Mobile*/
+@media screen and (max-width:480)
+{
+    .col-1
+    {
+    width: 100%;
+    }
+    
+    .col-2 {
+    width: 100%;
+    }
+    
+    .col-3 {
+    width: 100%;
+    }
+}
