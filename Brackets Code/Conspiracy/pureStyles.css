@@ -12,6 +12,8 @@
     font-family: 'Open Sans', sans-serif;
     background-color: #fff;
     line-height: 150%;
+    transition-property: all;
+    transition-duration: 0.5s;
 }
 
 .content:first-line
@@ -25,7 +27,133 @@
     margin-top: 3%;
 }
 
-.pure-menu-heading
+.pure-menu-heading, .pure-menu-link
 {
     font-family: 'Droid Serif',sans-serif;
+    font-size: 1.5rem;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+    border-radius: 10px;
+}
+
+.content
+{
+    border-radius: 10px;
+}
+
+.signUp
+{
+    border-radius: 10px;
+    
+    -webkit-animation-name: signUpa;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    
+    -moz-animation-name: signUpa;
+    -moz-animation-duration: 5s;
+    -moz-animation-iteration-count: infinite;
+    
+    -o-animation-name: signUpa;
+    -o-animation-duration: 5s;
+    -o-animation-iteration-count: infinite;
+    
+    animation-name: signUpa;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes signUpa
+{
+    from{
+        
+        background-color: #123456;
+        
+    }
+    
+    50%{
+        
+        background-color: #fff;
+        
+    }
+    
+    to
+    {
+        
+        background-color: #123456;
+        
+    }
+}
+
+
+@-moz-keyframes signUpa
+{
+    0%{
+        
+        background-color: #123456;
+        
+    }
+    
+    50%
+    {
+        
+        background-color: #fff;
+        
+    }
+    
+    100%
+    {
+        
+        background-color: #123456;
+        
+    }
+}
+
+
+@-o-keyframes signUpa
+{
+    0%
+    {
+        
+        background-color: #123456;
+        
+    }
+    
+    50%
+    {
+        
+        background-color: #fff;
+        
+    }
+    
+    100%
+    {
+        
+        background-color: #123456;
+        
+    }
+}
+
+
+@keyframes signUpa
+{
+    0%
+    {
+        
+        background-color: #123456;
+        
+    }
+    
+    50%
+    {
+        
+        background-color: #fff;
+        
+    }
+    
+    100%
+    {
+        
+        background-color: #123456;
+        
+    }
 }
