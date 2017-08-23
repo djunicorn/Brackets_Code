@@ -8,38 +8,54 @@
 .content
 {
     border: 5px solid #fff;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: 'Open Sans', sans-serif;
     background-color: #fff;
     line-height: 150%;
     transition-property: all;
     transition-duration: 0.5s;
     border-radius: 10px;
+    padding: 1rem;
 }
 
+@media screen and (max-width: 35.5em)
+{
+    .content
+    {
+            font-size: 1.2rem;
+    }
+}
+
+.pure-u-1
+{
+    padding: 30px;
+    margin-bottom: 4rem;
+}
 
 .content1
 {
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    margin: 15px;
+    -webkit-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.75);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     margin-top: 3%;
     border-radius: 10px;
+    padding: 1rem;
 }
 
 .content:first-line
 {
-    font-size: 2rem;
+    font-size: 1.85rem;
     font-family: 'Droid Sans', sans-serif;
 }
 
 .pure-menu
 {
     margin-bottom: 5%;
-    -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.75);
 }
 
 .pure-menu-heading, .pure-menu-link
@@ -61,30 +77,56 @@
     color: #777;
     background-color: #123456;
     border-color: #123456;
-    -webkit-box-shadow: 0px -10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px -10px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px -10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px -5px 30px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -5px 30px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -5px 30px 0px rgba(0,0,0,0.75);
+}
+.floatright
+{
+    width: 100%
 }
 
-#menuBar
+@media screen and (min-width: 80em)
+{
+
+    .floatright
+    {
+        width: 85%;
+        float: right;
+    }
+    
+    html .sidebar
+    {
+        width: 15%;
+        float: left;
+        height: 100%;
+        position: fixed;
+        z-index: 1111;
+        -webkit-box-shadow: 5px 0px 30px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 5px 0px 30px 0px rgba(0,0,0,0.75);
+        box-shadow: 5px 0px 30px 0px rgba(0,0,0,0.75);
+        display: block;
+    }
+}
+
+.sidebar
 {
     display: none;
-    position: fixed;
-    height: 100%;
-    width: 20em;
-    background-color: #fff;
-    z-index: 100;
-    -webkit-box-shadow: -10px 0px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: -10px 0px 5px 0px rgba(0,0,0,0.75);
-    box-shadow: -10px 0px 5px 0px rgba(0,0,0,0.75);
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    padding: 2%;
 }
 
-#menuBarCog
+
+.sidebarHeading, .sidebarText, .sidebarList
 {
-    position: fixed;
-    top: 2%;
-    right: 2%;
+    margin: 1rem;
+    color: #777;
+    line-height: 150%;
+    text-align: left;
+    padding: 0px;
+    border-bottom: 1px solid #777;
+}
+
+.sidebarHeading
+{
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 1.5rem;
 }
