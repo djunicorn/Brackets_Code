@@ -1,0 +1,204 @@
+/*A free to download CSS framework for anyone to use -- licenced with the MIT licence.*/
+
+/*Button styles*/
+
+.subtle-affirmitiveBtn
+{
+    
+}
+
+.subtle-negitiveBtn
+{
+    
+}
+
+.subtle-warningBtn
+{
+    
+}
+
+.subtle-greyBtn
+{
+    
+}
+
+[class$="Btn"]
+{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 2% 4%;
+    border-radius: 10px;
+    transition-property: scale;
+}
+
+[class$="Btn"]:hover
+{
+    
+}
+
+/*Header styles*/
+
+.subtle-navLink
+{
+    
+}
+
+.subtle-navbar-top
+{
+    
+}
+
+.subtle-navbar-side
+{
+    
+}
+
+/*Colours*/
+
+/*Grids*/
+
+.subtle-gridWrapper
+{
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    
+    -webkit-flex-wrap: wrap; /* Safari */
+    flex-wrap: wrap;
+    
+    -webkit-justify-content: space-around; /* Safari */
+    justify-content: space-around;
+    
+    -webkit-align-content: space-around; /* Safari */
+    align-content: space-around;
+}
+
+.subtle-grid-1-15{width: 6.66666%; height: 100%;}
+
+.subtle-grid-2-15{width: 13.33333%;height: 100%;}
+
+.subtle-grid-3-15{width: 20%;height: 100%;}
+
+.subtle-grid-4-15{width: 26.66666%;height: 100%;}
+
+.subtle-grid-5-15{width: 33.33333%;height: 100%;}
+
+.subtle-grid-6-15{width: 40%;height:100%;}
+
+.subtle-grid-7-15{width: 46.66666%;height:100%;}
+
+.subtle-grid-8-15{width: 53.33333%;height:100%;}
+
+.subtle-grid-9-15{width: 60%;height:100%;}
+
+.subtle-grid-10-15{width: 66.66666%;height:100%;}
+
+.subtle-grid-11-15{width: 73.33333%;height:100%;}
+
+.subtle-grid-12-15{width: 80%;height:100%;}
+
+.subtle-grid-13-15{width: 86.66666%;height:100%;}
+
+.subtle-grid-14-15{width: 93.33333%;height:100%;}
+
+.subtle-grid-15-15{width: 100%;height:100%;}
+
+@media screen and (min-width: 1081px)
+{
+.subtle-grid-lg-1-15{width: 6.66666%; height: 100%;}
+
+.subtle-grid-lg-2-15{width: 13.33333%;height: 100%;}
+
+.subtle-grid-lg-3-15{width: 20%;height: 100%;}
+
+.subtle-grid-lg-4-15{width: 26.66666%;height: 100%;}
+
+.subtle-grid-lg-5-15{width: 33.33333%;height: 100%;}
+
+.subtle-grid-lg-6-15{width: 40%;height:100%;}
+
+.subtle-grid-lg-7-15{width: 46.66666%;height:100%;}
+
+.subtle-grid-lg-8-15{width: 53.33333%;height:100%;}
+
+.subtle-grid-lg-9-15{width: 60%;height:100%;}
+
+.subtle-grid-lg-10-15{width: 66.66666%;height:100%;}
+
+.subtle-grid-lg-11-15{width: 73.33333%;height:100%;}
+
+.subtle-grid-lg-12-15{width: 80%;height:100%;}
+
+.subtle-grid-lg-13-15{width: 86.66666%;height:100%;}
+
+.subtle-grid-lg-14-15{width: 93.33333%;height:100%;}
+
+.subtle-grid-lg-15-15{width: 100%;height:100%;}
+}
+
+@media screen and (max-width: 1080px)
+{
+.subtle-grid-md-1-15{width: 6.66666%; height: 100%;}
+
+.subtle-grid-md-2-15{width: 13.33333%;height: 100%;}
+
+.subtle-grid-md-3-15{width: 20%;height: 100%;}
+
+.subtle-grid-md-4-15{width: 26.66666%;height: 100%;}
+
+.subtle-grid-md-5-15{width: 33.33333%;height: 100%;}
+
+.subtle-grid-md-6-15{width: 40%;height:100%;}
+
+.subtle-grid-md-7-15{width: 46.66666%;height:100%;}
+
+.subtle-grid-md-8-15{width: 53.33333%;height:100%;}
+
+.subtle-grid-md-9-15{width: 60%;height:100%;}
+
+.subtle-grid-md-10-15{width: 66.66666%;height:100%;}
+
+.subtle-grid-md-11-15{width: 73.33333%;height:100%;}
+
+.subtle-grid-md-12-15{width: 80%;height:100%;}
+
+.subtle-grid-md-13-15{width: 86.66666%;height:100%;}
+
+.subtle-grid-md-14-15{width: 93.33333%;height:100%;}
+
+.subtle-grid-md-15-15{width: 100%;height:100%;}
+}
+
+@media screen and (max-width: 480px)
+{
+.subtle-grid-sm-1-15{width: 6.66666%; height: 100%;}
+
+.subtle-grid-sm-2-15{width: 13.33333%;height: 100%;}
+
+.subtle-grid-sm-3-15{width: 20%;height: 100%;}
+
+.subtle-grid-sm-4-15{width: 26.66666%;height: 100%;}
+
+.subtle-grid-sm-5-15{width: 33.33333%;height: 100%;}
+
+.subtle-grid-sm-6-15{width: 40%;height:100%;}
+
+.subtle-grid-sm-7-15{width: 46.66666%;height:100%;}
+
+.subtle-grid-sm-8-15{width: 53.33333%;height:100%;}
+
+.subtle-grid-sm-9-15{width: 60%;height:100%;}
+
+.subtle-grid-sm-10-15{width: 66.66666%;height:100%;}
+
+.subtle-grid-sm-11-15{width: 73.33333%;height:100%;}
+
+.subtle-grid-sm-12-15{width: 80%;height:100%;}
+
+.subtle-grid-sm-13-15{width: 86.66666%;height:100%;}
+
+.subtle-grid-sm-14-15{width: 93.33333%;height:100%;}
+
+.subtle-grid-sm-15-15{width: 100%;height:100%;}
+}
