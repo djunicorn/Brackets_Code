@@ -1,25 +1,36 @@
 /*A free to download CSS framework for anyone to use -- licenced with the MIT licence.*/
 
-/*Button styles*/
-
-.sublime-affirmitiveBtn
-{
-    
+*{
+    font-family: sans-serif;
 }
 
-.sublime-negitiveBtn
+/*Button styles*/
+
+.sublime-yesBtn
 {
-    
+    background-image: url(../png/ic_done_black_24dp_1x.png);
+    background-position: 10% 50%;
+    background-color: #0ff00f;
+}
+
+.sublime-noBtn
+{
+    background-color: #f9000f;
+    background-image: url(../png/ic_clear_black_24dp_1x.png);
+    background-position: 0% 50%;
 }
 
 .sublime-warningBtn
 {
-    
+    background-color: #ffdc03;
+    background-image: url(../png/ic_warning_black_24dp_1x.png);
+    background-position: 0% 50%;
 }
 
 .sublime-greyBtn
 {
-    
+    background-color: #f3f3f3;
+    padding: 1% 27.5px !important;
 }
 
 [class$="Btn"]
@@ -28,14 +39,10 @@
     text-decoration: none;
     display: inline-block;
     font-size: 1rem;
-    padding: 2% 4%;
     border-radius: 10px;
-    transition-property: scale;
-}
-
-[class$="Btn"]:hover
-{
-    
+    background-repeat: no-repeat;
+    padding: 1% 20px 1% 35px;
+    background-position: 10% 50%;
 }
 
 /*Header styles*/
@@ -77,6 +84,7 @@
 [class^="sublime-grid-"]
 {
     height: 100%;
+    box-sizing: border-box;
 }
 
 .sublime-grid-1-15{width: 6.66666%;}
